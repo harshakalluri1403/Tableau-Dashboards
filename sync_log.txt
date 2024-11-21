@@ -26,3 +26,15 @@ To https://github.com/harshakalluri1403/Tableau-Dashboards.git
 Sync completed on 21-11-2024 20:52:26.67 
 Starting Git Sync on 21-11-2024 20:58:44.07 
 Reinitialized existing Git repository in C:/Users/harsh/Desktop/Tableau/.git/
+warning: in the working copy of 'sync_log.txt', LF will be replaced by CRLF the next time Git touches it
+[main 048bf9c] Auto-sync on 21-11-2024 20:58:44.20
+ 2 files changed, 10 insertions(+)
+ create mode 100644 Readmess/Screenshot 2024-11-21 204644.png
+fatal: no branch named 'master'
+git: 'credential-manager-core' is not a git command. See 'git --help'.
+branch 'main' set up to track 'origin/main'.
+To https://github.com/harshakalluri1403/Tableau-Dashboards.git
+   35dea78..048bf9c  main -> main
+Sync completed on 21-11-2024 20:58:50.58 
+Starting Git Sync on 21-11-2024 23:40:51.86 
+Reinitialized existing Git repository in C:/Users/harsh/Desktop/Tableau/.git/

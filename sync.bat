@@ -33,6 +33,13 @@ git commit -m "Auto-sync on %date% %time%" >> sync_log.txt 2>&1
 if %ERRORLEVEL% NEQ 0 (
     echo Commit failed, possibly no changes to commit. >> sync_log.txt 2>&1
 ) else (
+    REM Check if there are unstaged changes
+    git diff-index --quiet HEAD -- || (
+        REM If there are unstaged changes, commit or stash them
+        echo Unstaged changes found, committing changes before pull. >> sync_log.txt 2>&1
+        git commit -am "Auto-sync on %date% %time%" >> sync_log.txt 2>&1
+    )
+    
     REM Pull the latest changes from the remote to avoid conflicts
     git pull origin main --rebase >> sync_log.txt 2>&1
     if %ERRORLEVEL% NEQ 0 (

@@ -1,95 +1,58 @@
-Starting Git Sync on 21-11-2024 20:51:24.07 
-Initialized empty Git repository in C:/Users/harsh/Desktop/Tableau/.git/
-error: No such remote 'origin'
-warning: in the working copy of 'Prime/amazon_prime_titles.csv', LF will be replaced by CRLF the next time Git touches it
-warning: in the working copy of 'sync_log.txt', LF will be replaced by CRLF the next time Git touches it
-[master (root-commit) d81a828] Auto-sync on 21-11-2024 20:51:24.34
- 6 files changed, 13686 insertions(+)
- create mode 100644 Prime/Prime video logo.png
- create mode 100644 Prime/Prime.twb
- create mode 100644 Prime/Radial Bar chart values.txt
- create mode 100644 Prime/amazon_prime_titles.csv
- create mode 100644 sync.bat
- create mode 100644 sync_log.txt
-error: src refspec main does not match any
-error: failed to push some refs to 'origin'
-Sync completed on 21-11-2024 20:51:24.46 
-Starting Git Sync on 21-11-2024 20:52:19.87 
-Reinitialized existing Git repository in C:/Users/harsh/Desktop/Tableau/.git/
-warning: in the working copy of 'sync_log.txt', LF will be replaced by CRLF the next time Git touches it
-[master 35dea78] Auto-sync on 21-11-2024 20:52:19.98
- 2 files changed, 18 insertions(+), 1 deletion(-)
-git: 'credential-manager-core' is not a git command. See 'git --help'.
-branch 'main' set up to track 'origin/main'.
-To https://github.com/harshakalluri1403/Tableau-Dashboards.git
- * [new branch]      main -> main
-Sync completed on 21-11-2024 20:52:26.67 
-Starting Git Sync on 21-11-2024 20:58:44.07 
-Reinitialized existing Git repository in C:/Users/harsh/Desktop/Tableau/.git/
-warning: in the working copy of 'sync_log.txt', LF will be replaced by CRLF the next time Git touches it
-[main 048bf9c] Auto-sync on 21-11-2024 20:58:44.20
- 2 files changed, 10 insertions(+)
- create mode 100644 Readmess/Screenshot 2024-11-21 204644.png
-fatal: no branch named 'master'
-git: 'credential-manager-core' is not a git command. See 'git --help'.
-branch 'main' set up to track 'origin/main'.
-To https://github.com/harshakalluri1403/Tableau-Dashboards.git
-   35dea78..048bf9c  main -> main
-Sync completed on 21-11-2024 20:58:50.58 
-Starting Git Sync on 21-11-2024 23:40:51.86 
-Reinitialized existing Git repository in C:/Users/harsh/Desktop/Tableau/.git/
-warning: in the working copy of 'sync_log.txt', LF will be replaced by CRLF the next time Git touches it
-[main 6776d76] Auto-sync on 21-11-2024 23:40:52.03
- 7 files changed, 3886 insertions(+)
- create mode 100644 Breaking Bad/Book1.twb
- create mode 100644 Breaking Bad/Breaking Bad Dataset.csv
- create mode 100644 Breaking Bad/Breaking Bad description - Wikipedia.txt
- create mode 100644 Breaking Bad/Breaking_Bad.jpg
- create mode 100644 Breaking Bad/Breaking_Bad_Logo.png
- create mode 100644 Readmess/Screenshot 2024-11-21 233511.png
-fatal: no branch named 'master'
-git: 'credential-manager-core' is not a git command. See 'git --help'.
-To https://github.com/harshakalluri1403/Tableau-Dashboards.git
- ! [rejected]        main -> main (fetch first)
-error: failed to push some refs to 'https://github.com/harshakalluri1403/Tableau-Dashboards.git'
-hint: Updates were rejected because the remote contains work that you do not
-hint: have locally. This is usually caused by another repository pushing to
-hint: the same ref. If you want to integrate the remote changes, use
-hint: 'git pull' before pushing again.
-hint: See the 'Note about fast-forwards' in 'git push --help' for details.
-Sync completed on 21-11-2024 23:40:53.32 
-Starting Git Sync on 21-11-2024 23:41:49.26 
-Reinitialized existing Git repository in C:/Users/harsh/Desktop/Tableau/.git/
-warning: in the working copy of 'sync_log.txt', LF will be replaced by CRLF the next time Git touches it
-[main b1d7619] Auto-sync on 21-11-2024 23:41:49.37
- 1 file changed, 22 insertions(+)
-fatal: no branch named 'master'
-git: 'credential-manager-core' is not a git command. See 'git --help'.
-To https://github.com/harshakalluri1403/Tableau-Dashboards.git
- ! [rejected]        main -> main (fetch first)
-error: failed to push some refs to 'https://github.com/harshakalluri1403/Tableau-Dashboards.git'
-hint: Updates were rejected because the remote contains work that you do not
-hint: have locally. This is usually caused by another repository pushing to
-hint: the same ref. If you want to integrate the remote changes, use
-hint: 'git pull' before pushing again.
-hint: See the 'Note about fast-forwards' in 'git push --help' for details.
-Sync completed on 21-11-2024 23:41:50.65 
-Starting Git Sync on 21-11-2024 23:42:37.97 
-Reinitialized existing Git repository in C:/Users/harsh/Desktop/Tableau/.git/
-warning: in the working copy of 'sync_log.txt', LF will be replaced by CRLF the next time Git touches it
-[main 038ad16] Auto-sync on 21-11-2024 23:42:38.06
- 2 files changed, 18 insertions(+), 2 deletions(-)
-error: cannot pull with rebase: You have unstaged changes.
-error: Please commit or stash them.
-git: 'credential-manager-core' is not a git command. See 'git --help'.
-To https://github.com/harshakalluri1403/Tableau-Dashboards.git
- ! [rejected]        main -> main (fetch first)
-error: failed to push some refs to 'https://github.com/harshakalluri1403/Tableau-Dashboards.git'
-hint: Updates were rejected because the remote contains work that you do not
-hint: have locally. This is usually caused by another repository pushing to
-hint: the same ref. If you want to integrate the remote changes, use
-hint: 'git pull' before pushing again.
-hint: See the 'Note about fast-forwards' in 'git push --help' for details.
-Sync completed on 21-11-2024 23:42:39.36 
-Starting Git Sync on 21-11-2024 23:48:37.41 
+@echo off
+setlocal
+
+REM Change to your DevPlayground directory
+cd C:\Users\harsh\Desktop\Tableau
+
+REM Log start time
+echo Starting Git Sync on %date% %time% >> sync_log.txt
+
+REM Create .gitkeep in every empty folder
+for /d %%d in (*) do (
+    pushd "%%d"
+    if not exist "*" (
+        echo. > ".gitkeep"
+    )
+    popd
+)
+
+REM Initialize Git (if not already initialized)
+git init >> sync_log.txt 2>&1
+
+REM Check if remote origin exists, if not, set it
+git remote get-url origin >> nul 2>&1
+if %ERRORLEVEL% NEQ 0 (
+    git remote add origin https://github.com/harshakalluri1403/Tableau-Dashboards.git >> sync_log.txt 2>&1
+)
+
+REM Check for changes and add all files and directories
+git add -A >> sync_log.txt 2>&1
+
+REM Commit changes
+git commit -m "Auto-sync on %date% %time%" >> sync_log.txt 2>&1
+if %ERRORLEVEL% NEQ 0 (
+    echo Commit failed, possibly no changes to commit. >> sync_log.txt 2>&1
+) else (
+    REM Check if there are unstaged changes
+    git diff-index --quiet HEAD -- || (
+        REM If there are unstaged changes, commit or stash them
+        echo Unstaged changes found, committing changes before pull. >> sync_log.txt 2>&1
+        git commit -am "Auto-sync on %date% %time%" >> sync_log.txt 2>&1
+    )
+    
+    REM Pull the latest changes from the remote to avoid conflicts
+    git pull origin main --rebase >> sync_log.txt 2>&1
+    if %ERRORLEVEL% NEQ 0 (
+        echo Git pull failed, there might be conflicts or other issues. >> sync_log.txt 2>&1
+    ) else (
+        REM Push to the main branch
+        git push -u origin main >> sync_log.txt 2>&1
+    )
+)
+
+REM Log end time
+echo Sync completed on %date% %time% >> sync_log.txt 2>&1
+
+endlocal
+Starting Git Sync on 21-11-2024 23:49:37.19 
 Reinitialized existing Git repository in C:/Users/harsh/Desktop/Tableau/.git/

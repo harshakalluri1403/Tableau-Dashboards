@@ -76,3 +76,18 @@ hint: See the 'Note about fast-forwards' in 'git push --help' for details.
 Sync completed on 21-11-2024 23:41:50.65 
 Starting Git Sync on 21-11-2024 23:42:37.97 
 Reinitialized existing Git repository in C:/Users/harsh/Desktop/Tableau/.git/
+warning: in the working copy of 'sync_log.txt', LF will be replaced by CRLF the next time Git touches it
+[main 038ad16] Auto-sync on 21-11-2024 23:42:38.06
+ 2 files changed, 18 insertions(+), 2 deletions(-)
+error: cannot pull with rebase: You have unstaged changes.
+error: Please commit or stash them.
+git: 'credential-manager-core' is not a git command. See 'git --help'.
+To https://github.com/harshakalluri1403/Tableau-Dashboards.git
+ ! [rejected]        main -> main (fetch first)
+error: failed to push some refs to 'https://github.com/harshakalluri1403/Tableau-Dashboards.git'
+hint: Updates were rejected because the remote contains work that you do not
+hint: have locally. This is usually caused by another repository pushing to
+hint: the same ref. If you want to integrate the remote changes, use
+hint: 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+Sync completed on 21-11-2024 23:42:39.36 

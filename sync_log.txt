@@ -91,3 +91,5 @@ hint: the same ref. If you want to integrate the remote changes, use
 hint: 'git pull' before pushing again.
 hint: See the 'Note about fast-forwards' in 'git push --help' for details.
 Sync completed on 21-11-2024 23:42:39.36 
+Starting Git Sync on 21-11-2024 23:48:37.41 
+Reinitialized existing Git repository in C:/Users/harsh/Desktop/Tableau/.git/

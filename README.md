@@ -18,6 +18,8 @@ Welcome to my **Tableau Dashboards** repository! This repository showcases a col
 
 ### 1. **Prime**
 ![](https://github.com/harshakalluri1403/Tableau-Dashboards/blob/048bf9ce0eafa28f17e519500eda314c32d96589/Readmess/Screenshot%202024-11-21%20204644.png)
+### 2. **Breaking Bad**
+![](https://github.com/harshakalluri1403/Tableau-Dashboards/blob/fe3cb28781227ab993597116bc4313584b452d16/Readmess/Screenshot%202024-11-21%20233511.png)
 ## Project Highlights
 
 - **Business Intelligence**: Data visualizations tailored for informed decision-making.

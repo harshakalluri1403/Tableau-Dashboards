@@ -16,3 +16,13 @@ error: failed to push some refs to 'origin'
 Sync completed on 21-11-2024 20:51:24.46 
 Starting Git Sync on 21-11-2024 20:52:19.87 
 Reinitialized existing Git repository in C:/Users/harsh/Desktop/Tableau/.git/
+warning: in the working copy of 'sync_log.txt', LF will be replaced by CRLF the next time Git touches it
+[master 35dea78] Auto-sync on 21-11-2024 20:52:19.98
+ 2 files changed, 18 insertions(+), 1 deletion(-)
+git: 'credential-manager-core' is not a git command. See 'git --help'.
+branch 'main' set up to track 'origin/main'.
+To https://github.com/harshakalluri1403/Tableau-Dashboards.git
+ * [new branch]      main -> main
+Sync completed on 21-11-2024 20:52:26.67 
+Starting Git Sync on 21-11-2024 20:58:44.07 
+Reinitialized existing Git repository in C:/Users/harsh/Desktop/Tableau/.git/

@@ -1,3 +1,18 @@
 Starting Git Sync on 21-11-2024 20:51:24.07 
 Initialized empty Git repository in C:/Users/harsh/Desktop/Tableau/.git/
 error: No such remote 'origin'
+warning: in the working copy of 'Prime/amazon_prime_titles.csv', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'sync_log.txt', LF will be replaced by CRLF the next time Git touches it
+[master (root-commit) d81a828] Auto-sync on 21-11-2024 20:51:24.34
+ 6 files changed, 13686 insertions(+)
+ create mode 100644 Prime/Prime video logo.png
+ create mode 100644 Prime/Prime.twb
+ create mode 100644 Prime/Radial Bar chart values.txt
+ create mode 100644 Prime/amazon_prime_titles.csv
+ create mode 100644 sync.bat
+ create mode 100644 sync_log.txt
+error: src refspec main does not match any
+error: failed to push some refs to 'origin'
+Sync completed on 21-11-2024 20:51:24.46 
+Starting Git Sync on 21-11-2024 20:52:19.87 
+Reinitialized existing Git repository in C:/Users/harsh/Desktop/Tableau/.git/

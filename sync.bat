@@ -20,7 +20,7 @@ REM Initialize Git (if not already initialized)
 git init >> sync_log.txt 2>&1
 
 REM Set remote origin to the new repository
-git remote set-url origin https://github.com/harshakalluri1403/Tableau-Dashboards.git >> sync_log.txt 2>&1
+git remote add origin https://github.com/harshakalluri1403/Tableau-Dashboards.git >> sync_log.txt 2>&1 2>nul
 
 REM Check for changes and add all files and directories
 git add -A >> sync_log.txt 2>&1
@@ -30,6 +30,8 @@ git commit -m "Auto-sync on %date% %time%" >> sync_log.txt 2>&1
 if %ERRORLEVEL% NEQ 0 (
     echo Commit failed, possibly no changes to commit. >> sync_log.txt 2>&1
 ) else (
+    REM Check if main branch exists, if not, create and switch to it
+    git branch -m master main >> sync_log.txt 2>&1
     REM Push to the main branch
     git push -u origin main >> sync_log.txt 2>&1
 )

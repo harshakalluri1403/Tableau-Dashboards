@@ -1,0 +1,3 @@
+Starting Git Sync on 21-11-2024 20:51:24.07 
+Initialized empty Git repository in C:/Users/harsh/Desktop/Tableau/.git/
+error: No such remote 'origin'

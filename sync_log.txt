@@ -38,3 +38,25 @@ To https://github.com/harshakalluri1403/Tableau-Dashboards.git
 Sync completed on 21-11-2024 20:58:50.58 
 Starting Git Sync on 21-11-2024 23:40:51.86 
 Reinitialized existing Git repository in C:/Users/harsh/Desktop/Tableau/.git/
+warning: in the working copy of 'sync_log.txt', LF will be replaced by CRLF the next time Git touches it
+[main 6776d76] Auto-sync on 21-11-2024 23:40:52.03
+ 7 files changed, 3886 insertions(+)
+ create mode 100644 Breaking Bad/Book1.twb
+ create mode 100644 Breaking Bad/Breaking Bad Dataset.csv
+ create mode 100644 Breaking Bad/Breaking Bad description - Wikipedia.txt
+ create mode 100644 Breaking Bad/Breaking_Bad.jpg
+ create mode 100644 Breaking Bad/Breaking_Bad_Logo.png
+ create mode 100644 Readmess/Screenshot 2024-11-21 233511.png
+fatal: no branch named 'master'
+git: 'credential-manager-core' is not a git command. See 'git --help'.
+To https://github.com/harshakalluri1403/Tableau-Dashboards.git
+ ! [rejected]        main -> main (fetch first)
+error: failed to push some refs to 'https://github.com/harshakalluri1403/Tableau-Dashboards.git'
+hint: Updates were rejected because the remote contains work that you do not
+hint: have locally. This is usually caused by another repository pushing to
+hint: the same ref. If you want to integrate the remote changes, use
+hint: 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+Sync completed on 21-11-2024 23:40:53.32 
+Starting Git Sync on 21-11-2024 23:41:49.26 
+Reinitialized existing Git repository in C:/Users/harsh/Desktop/Tableau/.git/

@@ -1,5 +1,5 @@
 # Prime Video Content Dashboard
-![](https://github.com/harshakalluri1403/Tableau-Dashboards/blob/048bf9ce0eafa28f17e519500eda314c32d96589/Readmess/Screenshot%202024-11-21%20204644.png)
+![Prime Video Content](https://github.com/harshakalluri1403/Tableau-Dashboards/blob/048bf9ce0eafa28f17e519500eda314c32d96589/Readmess/Screenshot%202024-11-21%20204644.png)
 This repository contains the interactive **Prime Video Content Dashboard**, built to visualize and analyze the distribution of Prime Video content based on various attributes such as country, genre, release year, type, and ratings.
 
 ## Features

@@ -56,3 +56,7 @@ echo Sync completed on %date% %time% >> sync_log.txt 2>&1
 endlocal
 Starting Git Sync on 21-11-2024 23:49:37.19 
 Reinitialized existing Git repository in C:/Users/harsh/Desktop/Tableau/.git/
+warning: in the working copy of 'sync_log.txt', LF will be replaced by CRLF the next time Git touches it
+[main b723851] Auto-sync on 21-11-2024 23:49:37.28
+ 2 files changed, 64 insertions(+), 94 deletions(-)
+Unstaged changes found, committing changes before pull. 

@@ -139,3 +139,37 @@ error: unable to unlink old 'sync_log.txt': Invalid argument
 fatal: Could not reset index file to revision 'HEAD'.
 Starting Git Sync on 23-11-2024  0:51:05.41 
 Reinitialized existing Git repository in C:/Users/harsh/Desktop/Tableau/.git/
+warning: in the working copy of 'sync_log.txt', LF will be replaced by CRLF the next time Git touches it
+[main c922236] Auto-sync on 23-11-2024  0:51:05.51
+ 1 file changed, 42 insertions(+)
+warning: in the working copy of 'sync_log.txt', LF will be replaced by CRLF the next time Git touches it
+Saved working directory and index state WIP on main: c922236 Auto-sync on 23-11-2024  0:51:05.51
+error: unable to unlink old 'sync_log.txt': Invalid argument
+fatal: Could not reset index file to revision 'HEAD'.
+error: cannot pull with rebase: You have unstaged changes.
+error: Please commit or stash them.
+error: Your local changes to the following files would be overwritten by merge:
+	sync_log.txt
+Please commit your changes or stash them before you merge.
+Aborting
+On branch main
+Your branch is ahead of 'origin/main' by 4 commits.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   sync_log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+The stash entry is kept in case you need it again.
+git: 'credential-manager-core' is not a git command. See 'git --help'.
+To https://github.com/harshakalluri1403/Tableau-Dashboards.git
+ ! [rejected]        main -> main (fetch first)
+error: failed to push some refs to 'https://github.com/harshakalluri1403/Tableau-Dashboards.git'
+hint: Updates were rejected because the remote contains work that you do not
+hint: have locally. This is usually caused by another repository pushing to
+hint: the same ref. If you want to integrate the remote changes, use
+hint: 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+Sync completed on 23-11-2024  0:51:07.71 

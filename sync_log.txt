@@ -80,3 +80,20 @@ warning: in the working copy of 'sync_log.txt', LF will be replaced by CRLF the 
  create mode 100644 Trip Advisor/Tripadvisor.txt
  create mode 100644 Trip Advisor/tripadvisor-logo.png
 Unstaged changes found, committing changes before pull. 
+warning: in the working copy of 'sync_log.txt', LF will be replaced by CRLF the next time Git touches it
+[main 028a09f] Auto-sync on 23-11-2024  0:46:14.76
+ 1 file changed, 8 insertions(+)
+error: cannot pull with rebase: You have unstaged changes.
+error: Please commit or stash them.
+git: 'credential-manager-core' is not a git command. See 'git --help'.
+To https://github.com/harshakalluri1403/Tableau-Dashboards.git
+ ! [rejected]        main -> main (fetch first)
+error: failed to push some refs to 'https://github.com/harshakalluri1403/Tableau-Dashboards.git'
+hint: Updates were rejected because the remote contains work that you do not
+hint: have locally. This is usually caused by another repository pushing to
+hint: the same ref. If you want to integrate the remote changes, use
+hint: 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+Sync completed on 23-11-2024  0:46:17.03 
+Starting Git Sync on 23-11-2024  0:49:50.89 
+Reinitialized existing Git repository in C:/Users/harsh/Desktop/Tableau/.git/

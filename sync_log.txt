@@ -60,3 +60,15 @@ warning: in the working copy of 'sync_log.txt', LF will be replaced by CRLF the 
 [main b723851] Auto-sync on 21-11-2024 23:49:37.28
  2 files changed, 64 insertions(+), 94 deletions(-)
 Unstaged changes found, committing changes before pull. 
+warning: in the working copy of 'sync_log.txt', LF will be replaced by CRLF the next time Git touches it
+[main fe3cb28] Auto-sync on 21-11-2024 23:49:37.34
+ 1 file changed, 4 insertions(+)
+error: cannot pull with rebase: You have unstaged changes.
+error: Please commit or stash them.
+git: 'credential-manager-core' is not a git command. See 'git --help'.
+branch 'main' set up to track 'origin/main'.
+To https://github.com/harshakalluri1403/Tableau-Dashboards.git
+   8c71d1c..fe3cb28  main -> main
+Sync completed on 21-11-2024 23:49:39.28 
+Starting Git Sync on 23-11-2024  0:46:14.29 
+Reinitialized existing Git repository in C:/Users/harsh/Desktop/Tableau/.git/

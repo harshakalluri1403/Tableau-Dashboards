@@ -1,43 +1,28 @@
 @echo off
-setlocal
-
-REM Change to your DevPlayground directory
+:: Navigate to the project directory
 cd C:\Users\harsh\Desktop\Tableau
 
-REM Log start time
-echo Starting Git Sync on %date% %time% >> sync_log.txt
+:: Create or append to the sync_log.txt file with the current timestamp
+echo %date% %time% - Sync started >> sync_log.txt
 
-REM Create .gitkeep in every empty folder
-for /d %%d in (*) do (
-    pushd "%%d"
-    if not exist "*" (
-        echo. > ".gitkeep"
-    )
-    popd
-)
+:: Fetch the latest changes from the remote repository
+git fetch origin >> sync_log.txt 2>&1
 
-REM Initialize Git (if not already initialized)
-git init >> sync_log.txt 2>&1
+:: Check the status of the repository
+git status >> sync_log.txt 2>&1
 
-REM Check if remote origin exists, if not, set it
-git remote get-url origin >> nul 2>&1
-if %ERRORLEVEL% NEQ 0 (
-    git remote add origin https://github.com/harshakalluri1403/Tableau-Dashboards.git >> sync_log.txt 2>&1
-)
-
-REM Add changes and commit
+:: If there are changes not staged for commit (like modified files)
+:: Stage the changes, commit them, and push them to the remote repository
 git add -A >> sync_log.txt 2>&1
-git commit -m "Auto-sync on %date% %time%" >> sync_log.txt 2>&1
+git commit -m "Auto-commit changes" >> sync_log.txt 2>&1
+git push origin main >> sync_log.txt 2>&1
 
-REM Stash changes before pulling
-git stash >> sync_log.txt 2>&1
+:: Pull the latest changes from the remote main branch to ensure the repo is fully updated
 git pull origin main --rebase >> sync_log.txt 2>&1
-git stash pop >> sync_log.txt 2>&1
 
-REM Push changes
-git push -u origin main >> sync_log.txt 2>&1
+:: Final status check
+git status >> sync_log.txt 2>&1
 
-REM Log end time
-echo Sync completed on %date% %time% >> sync_log.txt 2>&1
-
-endlocal
+:: Log completion time
+echo %date% %time% - Sync completed >> sync_log.txt
+echo ------------------------------------------------------------ >> sync_log.txt

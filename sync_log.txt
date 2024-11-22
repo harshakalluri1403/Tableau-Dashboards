@@ -72,3 +72,11 @@ To https://github.com/harshakalluri1403/Tableau-Dashboards.git
 Sync completed on 21-11-2024 23:49:39.28 
 Starting Git Sync on 23-11-2024  0:46:14.29 
 Reinitialized existing Git repository in C:/Users/harsh/Desktop/Tableau/.git/
+warning: in the working copy of 'sync_log.txt', LF will be replaced by CRLF the next time Git touches it
+[main 77ab6e4] Auto-sync on 23-11-2024  0:46:14.58
+ 5 files changed, 3354 insertions(+)
+ create mode 100644 Readmess/Screenshot 2024-11-23 004458.png
+ create mode 100644 Trip Advisor/Book1.twb
+ create mode 100644 Trip Advisor/Tripadvisor.txt
+ create mode 100644 Trip Advisor/tripadvisor-logo.png
+Unstaged changes found, committing changes before pull. 

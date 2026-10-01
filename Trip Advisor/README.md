@@ -1,6 +1,6 @@
 # TripAdvisor Hotel Dashboard
 
-![TripAdvisor Hotel Dashboard](https://github.com/harshakalluri1403/Tableau-Dashboards/blob/069f65f7802e2eb129f11f56b2ddd3c4dd344eca/Readmess/Screenshot%202024-11-23%20004458.png)
+![TripAdvisor Hotel Dashboard](../Readmess/Screenshot%202024-11-23%20004458.png)
 
 This repository contains the interactive **TripAdvisor Hotel Dashboard**, built to visualize and analyze hotel-related data, including user preferences, services, and room details.
 

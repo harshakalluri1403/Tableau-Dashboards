@@ -1,6 +1,6 @@
 # Breaking Bad Dashboard
 
-![Breaking Bad Dashboard](https://github.com/harshakalluri1403/Tableau-Dashboards/blob/fe3cb28781227ab993597116bc4313584b452d16/Readmess/Screenshot%202024-11-21%20233511.png)
+![Breaking Bad Dashboard](../Readmess/Screenshot%202024-11-21%20233511.png)
 
 This repository contains the **Breaking Bad Dashboard**, an interactive visualization exploring the critically acclaimed television series "Breaking Bad." The dashboard provides a comprehensive analysis of the show, including episode details, ratings, viewership, and directorial contributions.
 

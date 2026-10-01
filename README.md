@@ -8,6 +8,7 @@
 ![Dashboards](https://img.shields.io/badge/dashboards-3-6f42c1)
 ![Data](https://img.shields.io/badge/data-included-2ea44f)
 ![Focus](https://img.shields.io/badge/focus-storytelling%20%2B%20BI-lightgrey)
+![License](https://img.shields.io/badge/license-MIT-blue)
 
 [Prime Video](#1-prime-video-content) ·
 [Breaking Bad](#2-breaking-bad) ·
@@ -94,3 +95,7 @@ and dashboard actions
 ---
 
 <div align="center"><b>Happy visualizing!</b> 🎨📊</div>
+
+## License
+
+Released under the [MIT License](LICENSE).
